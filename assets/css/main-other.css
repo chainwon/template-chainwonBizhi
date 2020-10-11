@@ -1,0 +1,114 @@
+@media screen and (max-width:1200px) {
+  #header .nav .user .user-information {
+    position: fixed;
+    top: 44px;
+    right: calc(50% - 445px);
+    width: 180px;
+    background: #fff;
+    height: 0;
+    z-index: 1;
+    opacity: 0;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .06);
+  }
+  .container {
+    width: 920px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #header .bottom .container {
+    width: 940px;
+  }
+  #content .container .user {
+    width: calc(33.3% - 3.5px);
+  }
+  #content .container .area li {
+    width: calc(33.33333333333333333333% - 3.6px);
+  }
+}
+@media screen and (max-width:720px) {
+  #content .i .tool .goodgame {
+    width: 100%;
+  }
+  #content .i .tool .share a {
+    width: calc(20% - 3px);
+    display: inline-block;
+    margin: 0;
+  }
+  #content .i .tool .share {
+    width: 100%;
+  }
+  #content .i .tool .share .fa-download {
+    width: 100%!important;
+    margin-top: 8px;
+  }
+  #content .container .user {
+    width: 100%;
+  }
+  #content .container .show {
+    width: 100%;
+    height: 190px;
+  }
+  #header .nav .user .user-information {
+    position: fixed;
+    top: 44px;
+    right: calc(50% - 445px);
+    width: 180px;
+    background: #fff;
+    height: 0;
+    z-index: 1;
+    opacity: 0;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .06);
+  }
+  .container {
+    width: calc(100% - 30px);
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #header .bottom .container {
+    width: calc(100% - 10px);
+  }
+  #content .container .area li {
+    position: relative;
+    border-radius: 3px;
+    box-sizing: border-box;
+    width: 100%;
+    display: inline-block;
+    overflow: hidden;
+  }
+  #header .bottom {
+    margin-top: -250px;
+  }
+  #header .nav .search {
+    height: 45px;
+    position: absolute;
+    left: calc(50% - 100px);
+    width: 200px;
+    height: 33px;
+    top: 7px;
+  }
+  #header .nav .logo, #header .nav .logo:visited {
+    display: none;
+  }
+  #header .nav .user {
+    position: relative;
+    float: left;
+    font-size: 12px;
+    margin-left: 10px;
+    height: 45px;
+    line-height: 45px;
+    color: #5b6064;
+  }
+  #header .nav .user .user-information {
+    position: fixed;
+    top: 45px;
+    left: 0;
+    width: 180px;
+    background: #fff;
+    height: 0;
+    z-index: 1;
+    opacity: 0;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .06);
+  }
+}
